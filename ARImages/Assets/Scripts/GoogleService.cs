@@ -7,7 +7,8 @@ public class GoogleService : MonoBehaviour {
 
     public PictureFactory pictureFactory;
     public Text buttonText;
-    private const string API_KEY = "AIzaSyBAVpA4rKfMPP5AcqqCobOCNF1S5uqa8Yw";
+    //API_KEY: OCULTA
+    private const string API_KEY = "{API_KEY_HERE}";
 
     public void GetPicture() {
         StartCoroutine(PictureRoutiine());
